@@ -1,0 +1,8 @@
+data_folder = '/server/group/user'
+sorted_dataset_folder = '/server/u/user/sorted_splits_agdev'
+transformer_code_folder = '/server/u/user/transformer_code'
+wandb_runs_folder = '/server/u/user/transformer_code/wandb'
+metadata_path = sorted_dataset_folder + '/hcpagdev_meta_norm.csv'
+behavioral_path = sorted_dataset_folder + '/hcp_aging_behavior_scores_subject_level.csv'
+recon_folder = '/server/group/user/HCP-AgDev-reconstruction'
+results_path = '/server/u/user/transformer_code/test_results'

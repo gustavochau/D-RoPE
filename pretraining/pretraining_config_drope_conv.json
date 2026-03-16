@@ -1,0 +1,35 @@
+{
+  "task": "DTI_alldirdiv30", 
+  "name_proj": "MAE_Drope_mask1_conv",
+  "architecture": {
+    "convolutional_final_layer": true,
+    "img_size": [192, 224, 4],
+    "patch_size": [16, 16, 4],
+    "random_sel": 1,
+    "random_dir": 15,
+    "dataset_name": { "value": "DTI_alldirdiv30" },
+    "mask_type": { "value": 1 },
+    "mask_ratio_space": { "value": 0.8 },
+    "mask_ratio_diff": { "value": 0.5 },
+    "num_transf_units": { "value": 10 },
+    "dec_num_transf_units": { "value": 4 },
+    "emb_size": { "value": 768 },
+    "num_head": { "value": 6 },
+    "conv_kernel_size": { "value": 3 },
+    "num_dec_conv_layers": { "value": 3 }
+  },
+  "training": {
+    "optimizer": { "value": "adam" },
+    "epochs": { "value": 300},
+    "batch_size": { "value": 4 },
+    "interval_recon": 50,
+    "alpha_init": 0.05,
+    "alpha_final": 0.95
+  },
+  "cosine_schedule": {
+    "lr_start": 5e-5,
+    "lr_end": 1e-6,
+    "wd_start": 0.04,
+    "wd_end": 0.4
+  }
+}

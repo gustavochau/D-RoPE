@@ -1,0 +1,7 @@
+data_folder = '/server/group/user/ADNI4-processed'
+sorted_dataset_folder = '/server/u/user/sorted_splits_adni'
+transformer_code_folder = '/server/u/user/transformer_code'
+wandb_runs_folder = '/server/u/user/transformer_code/wandb'
+metadata_path = sorted_dataset_folder + '/All_Subjects_My_Table_01Aug2025.csv'
+behavioral_path = sorted_dataset_folder + '/normalized_output.csv'
+results_path = '/server/u/user/transformer_code/test_results'

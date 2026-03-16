@@ -1,0 +1,5 @@
+data_folder = '/server/group/user/HCP-YA-processed'
+sorted_dataset_folder = '/server/u/user/sorted_splits'
+transformer_code_folder = '/server/u/user/transformer_code'
+wandb_runs_folder = '/server/u/user/transformer_code/wandb'
+out_recon_folder = '/server/group/user/HCP-YA-reconstruction-all'
