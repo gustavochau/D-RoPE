@@ -1,6 +1,6 @@
 ## Project Overview
 
-This codebase implements D-RoPE and the dMRI transformer as described in "Diffusion MRI Transformer with a Diffusion Space Rotary Positional Embedding (D-RoPE)", as well as code to partially replicate the results. Please notice that because of size and policies of ADNI and HCP datasets, the data cannot be directly reshared. 
+This codebase implements D-RoPE and the dMRI transformer as described in [Diffusion MRI Transformer with a Diffusion Space Rotary Positional Embedding (D-RoPE)](https://arxiv.org/abs/2603.25977), as well as code to partially replicate the results. Please notice that because of size and policies of ADNI and HCP datasets, the data cannot be directly reshared. 
 
 ## Repository Structure
 
